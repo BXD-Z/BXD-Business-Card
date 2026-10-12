@@ -1,0 +1,54 @@
+/*37,38,41*/
+body
+{
+  margin-top: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:11pt;
+  background: #2E294E; ;
+}
+.Card
+{
+  background: #FFD400;
+  padding:30px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid #d6ccfc;
+  border-radius: 10px ;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  color : #2e294d;
+}
+.profile_pic
+{
+  width: 170px;
+  border-radius: 10px;
+}
+#myDIV1 {
+  animation: mymove1 5s ease-in-out forwards;
+}
+@keyframes mymove1
+{
+  from { scale: 0.8; }
+  to   { scale: 1; }
+}
+
+#MYDIV2
+{
+  animation: mymove2 5s alternate;
+}
+@keyframes mymove2
+{
+  from {scale: 0.8;}
+  to   { scale: 1;}
+}
+
+#myDIV3 {
+  animation: mymove1 5s ease-out forwards;
+}
+@keyframes mymove3
+{
+  from {scale: 0.8;}
+  to   { scale: 1;}
+}
